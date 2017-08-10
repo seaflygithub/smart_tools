@@ -40,7 +40,7 @@ binlock: A tool of file-encryption
 - Encryption range: All files, include text files or ascii files.
 - Encryption Way: username + password + ID + MD5
 - Deciphering Way: Verify password under the specific username at first, verify ID if incorrected-password.
-- Version's Features: high speed, support multi-users encrypt the file.
+- Version's Features: high speed, support multi-users encrypt the same file.
 
 # Branch & Version
 

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # docbackup.sh
 # Copyright (c) 2016 seafly <seafly0616@qq.com>
 #

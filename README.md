@@ -13,6 +13,23 @@
 
 # Introduction of tools
 
+## rootfs_backup.sh
+
+- ➜  ~ rootfs_backup.sh执行后：
+- ➜  ~ 产生的所有备份文件都存放在/tmp/rootfs_ubuntu目录下
+- ➜  ~ 备份完成之后直接把整个rootfs_ubuntu目录拷贝只你的其他目录
+- ➜  ~ 恢复文件系统就需要这个文件包
+- ➜  ~ 
+- ➜  ~ 备份：
+- ➜  ~ 修改脚本里面的相关变量###############
+- ➜  ~ 直接把该脚本拷贝到如上rootfs_ubuntu/顶层目录下，然后执行：
+- ➜  ~ bash  ./rootfs_backup.sh
+- ➜  ~
+- ➜  ~ 恢复：
+- ➜  ~ 修改脚本里面的相关变量###############
+- ➜  ~ 直接把该脚本拷贝到如上rootfs_ubuntu/顶层目录下，然后执行：
+- ➜  ~ bash rootfs_backup.sh  -d 
+
 ## docbackup.sh
 
     - Tip: rename destinative file with last modified time
@@ -48,4 +65,5 @@
     - Use: run `translate` or `t` for help.
     - GIF: 
 ![./screenshots/translate.gif](./screenshots/translate.gif)
+
 

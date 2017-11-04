@@ -1,10 +1,9 @@
-##################################################
-# Filename: global_sys.sh
-# Author: ChrisZZ
-# E-mail: zchrissirhcz@163.com
-# Created Time: 2017年09月17日 星期日 09时37分57秒
-##################################################
 #!/bin/bash
+# File              : global_sys.sh
+# Author            : SeaflyGithub <seafly0616@qq.com>
+# Date              : 2017.10.26 11时03分21秒
+# Last Modified Date: 2017.10.26 11时06分04秒
+# Last Modified By  : SeaflyGithub <seafly0616@qq.com>
 HOSTOS=""
 SUDO=""
 FLAG_NETWORK_STATUS=0

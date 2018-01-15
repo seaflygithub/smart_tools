@@ -10,6 +10,7 @@ install:
 	make install -C dict
 	-rm -rf ${HOME}/.oh-my-zsh
 	-cp -rf oh-my-zsh ${HOME}/.oh-my-zsh
+	-cp -rf ./oh-my-zsh/templates/zshrc.zsh-template $(HOME)/.zshrc
 	make install -C scripts
 clean:
 	make clean -C binlock

@@ -27,6 +27,11 @@ function get_hostos()   # >> HOSTOS
         awk -F ' ' '{print $1}' | \
         awk -F '-' '{print $2}' | \
         tr '[:upper:]' '[:lower:]'`"
+    if [ "${HOSTOS}" != "ubuntu" ]; then
+        HOSTOS="`cat /etc/issue.net | \
+        awk -F ' ' '{print $1}' | \
+        tr '[:upper:]' '[:lower:]'`"
+    fi
 }
 
 # 检查当前用户权限
